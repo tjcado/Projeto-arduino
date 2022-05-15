@@ -1,4 +1,4 @@
-function AlteraRele1(){
+function AlteraRele(){
     var estado = document.getElementById("estado").innerHTML;
     if(estado === "0"){
         document.getElementById("estado").innerHTML="1";
