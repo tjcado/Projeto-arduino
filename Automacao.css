@@ -33,7 +33,7 @@ div.rele_ligado {
     height: 206px;
     border: none;
 		margin:auto;
-    background: url(lampada_ligada.png) no-repeat left top;
+    background: url(https://tjcado.github.io/Projeto-arduino/ligado.jpg) no-repeat left top;
 }
 
 div.rele_desligado {
@@ -43,7 +43,7 @@ div.rele_desligado {
     width: 300px;
     height: 206px;
     border: none;
-	background: url(lampada_desligada.png) no-repeat left top;
+	background: url(https://tjcado.github.io/Projeto-arduino/desligado.jpg) no-repeat left top;
 }
 
 
@@ -90,8 +90,7 @@ div.rele_desligado {
         text-align: center;
 }
 
-}.botao:active {
+.botao:active {
 	position:relative;
 	top:1px;
 }
-
