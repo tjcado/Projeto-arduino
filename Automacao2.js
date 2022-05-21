@@ -15,11 +15,11 @@ function AlteraMovimento(){
     var estado_2 = document.getElementById("estado_2").innerHTML;
     if(estado_2 === "0"){
         document.getElementById("estado_2").innerHTML="1";
-        document.getElementById("mov").innerHTML="<div class='movimento'></div>";
+        document.getElementById("mov").innerHTML="<div class='movi'></div>";
 	document.getElementById("botao_2").innerHTML="<a href='/?2_desligar' class='botao_2'>vazio</a>";
     } else {
         document.getElementById("estado_2").innerHTML="0";
-        document.getElementById("mov").innerHTML="<div class='sem_movimento'></div>";
+        document.getElementById("mov").innerHTML="<div class='sem_movi'></div>";
         document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Aula</a>";
     }
 }
