@@ -16,10 +16,10 @@ function Movimento(){
     if(estado_2 === "1"){
         document.getElementById("estado_2").innerHTML="0";
         document.getElementById("movimento").innerHTML="<div class='movimento'></div>";
-	//document.getElementById("botao_2").innerHTML="<a href='/?2_desligar' class='botao_2'>Desliga</a>";
+	document.getElementById("botao_2").innerHTML="<a href='/?2_desligar' class='botao_2'>vazio</a>";
     } else {
         document.getElementById("estado_2").innerHTML="1";
         document.getElementById("movimento").innerHTML="<div class='sem_movimento'></div>";
-        //document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Liga</a>";
+        document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>movimento</a>";
     }
 }
