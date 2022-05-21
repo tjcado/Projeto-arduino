@@ -12,7 +12,7 @@ function AlteraRele(){
 }
 
 function AlteraMovimento(){
-    //var estado_2 = document.getElementById("estado_2").innerHTML;
+    var estado_2 = document.getElementById("estado_2").innerHTML;
     if(estado_2 == LOW ){
         document.getElementById("estado_2").innerHTML="1";
         document.getElementById("mov").innerHTML="<div class='sem_movi'></div>";
