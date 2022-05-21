@@ -11,7 +11,7 @@ function AlteraRele(){
     }
 }
 
-function Movimento(){
+function AlteraMovimento(){
     var estado_2 = document.getElementById("estado_2").innerHTML;
     if(estado_2 === "0"){
         document.getElementById("estado_2").innerHTML="1";
