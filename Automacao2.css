@@ -47,7 +47,7 @@ div.rele_desligado {
 }
 
 
-div.movimento {
+div.movi {
     position: absolute;
     right: -110px;
     top: 220px;
@@ -58,7 +58,7 @@ div.movimento {
     background: url(https://tjcado.github.io/Projeto-arduino/movimento.jpg) no-repeat left top;
 }
 
-div.sem_movimento {
+div.sem_movi {
     position: absolute;
     right: -110px;
     top: 220px;
