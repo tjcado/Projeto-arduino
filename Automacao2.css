@@ -195,7 +195,7 @@ div.sem_movi {
         text-align: center;
 }
 
-}.botao_movi:active {
+}.botao_mov:active {
 	position:relative;
 	top:1px;
 }
