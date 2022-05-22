@@ -20,6 +20,6 @@ function AlteraMovimento(){
     } else {
         document.getElementById("estado_2").innerHTML="0";
         document.getElementById("movit").innerHTML="<div class='movi'></div>";
-        document.getElementById("botao_2").innerHTML="<a class='botao_2'>Aula</a>";
+        document.getElementById("botao_movi").innerHTML="<a class='botao_2'>Aula</a>";
     }
 }
