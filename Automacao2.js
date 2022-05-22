@@ -12,15 +12,15 @@ function AlteraRele(){
     }
 }
 
-function AlteraMovimento(){
+function AlteraMovimento1(){
     var estado_2 = document.getElementById("estado_2").innerHTML;
-    if(estado_2 === "1" ){
         document.getElementById("estado_2").innerHTML="1";
         document.getElementById("movit").innerHTML="<div class='sem_movi'></div>";
 	document.getElementById("botao_2").innerHTML="<a href='/?2_desligar' class='botao_2'>vazio</a>";
-    } else {
+}
+	function AlteraMovimento2(){
+    var estado_3 = document.getElementById("estado_3").innerHTML;
         document.getElementById("estado_2").innerHTML="0";
         document.getElementById("movit").innerHTML="<div class='movi'></div>";
         document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_mov'>Movimento</a>";
-    }
 }
