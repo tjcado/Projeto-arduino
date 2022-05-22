@@ -20,7 +20,7 @@ function AlteraMovimento1(){
 }
 	function AlteraMovimento2(){
     var estado_3 = document.getElementById("estado_3").innerHTML;
-        document.getElementById("estado_2").innerHTML="0";
+        document.getElementById("estado_3").innerHTML="0";
         document.getElementById("movit").innerHTML="<div class='movi'></div>";
         document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_mov'>Movimento</a>";
 }
