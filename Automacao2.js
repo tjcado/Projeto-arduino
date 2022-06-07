@@ -22,5 +22,5 @@ function AlteraMovimento2(){
     var estado_3 = document.getElementById("estado_3").innerHTML;
         document.getElementById("estado_3").innerHTML="0";
         document.getElementById("movit").innerHTML="<div class='movi'></div>";
-        document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_mov'>Em Aula</a>";
+        document.getElementById("botao_mov").innerHTML="<a href='/?2_ligar' class='botao_mov'>Em Aula</a>";
 }
